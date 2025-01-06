@@ -422,9 +422,9 @@ body {
 }
 
 .tour-box {
-    width: calc(100%-50px);
+    width: calc(100% - 50px);
     min-width: 300px;
-    height: calc(90%-50px);
+    height: calc(90% - 50px);
     margin: auto 25px;
     padding: 25px;
     background-color: #f2f2f2;
