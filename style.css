@@ -56,5 +56,11 @@
 
 /* Start of Page Specific CSS */
 body {
-    font: Roboto;
+    font: roboto-regular;
+}
+
+#logo {
+    height: 75px;
+    width: auto;
+    margin: 50px 0 100px 50px;
 }
