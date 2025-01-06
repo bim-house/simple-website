@@ -408,13 +408,18 @@
 
 /* Start of Page Specific CSS */
 body {
-    font: 'Roboto' , sans-serif;
+    font: "Roboto" , sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font: "Roboto Serif" , serif;
+    font-weight: bold;
 }
 
 #logo {
     height: 75px;
     width: auto;
-    margin: 50px 50px 50px 25px;
+    margin: 50px 50px 50px 29px; /* 29px is because the logo has 21px of white margin in it */
 }
 
 #logo img {
