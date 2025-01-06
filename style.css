@@ -422,15 +422,19 @@ body {
 }
 
 .tour-box {
-    width: calc(100% - 50px);
+    width: calc(100% - 100px);
     min-width: 300px;
-    height: calc(90% - 50px);
-    margin: auto 25px;
+    height: auto;
+    margin: 50px 25px;
     padding: 25px;
     background-color: #f2f2f2;
 }
 
-.tour-box-tour {
-    width: 100%;
-    height: 100%;
+.tour-box {
+    width: calc(100% - 100px);
+    min-width: 300px;
+    height: auto;
+    margin: 50px 25px;
+    padding: 25px;
+    background-color: #f2f2f2;
 }
