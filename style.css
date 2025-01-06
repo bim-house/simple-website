@@ -71,7 +71,7 @@ body {
 .tour-box {
     width: 90%;
     height: 90%;
-    margin: auto 50px;
+    margin: auto 25px;
     padding: 25px;
-    background-color: lightgrey;
+    background-color: #f2f2f2;
 }
