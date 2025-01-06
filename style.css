@@ -3,35 +3,33 @@
 
 /* Roboto Style Definitions */
 .roboto-regular {
-    font-family: "Roboto", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+}
   
-  .roboto-bold {
-    font-family: "Roboto", serif;
-    font-weight: 700;
-    font-style: normal;
-  }
+.roboto-bold {
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  font-style: normal;
+}
   
-  .roboto-regular-italic {
-    font-family: "Roboto", serif;
-    font-weight: 400;
-    font-style: italic;
-  }
+.roboto-regular-italic {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: italic;
+}
   
-  .roboto-bold-italic {
-    font-family: "Roboto", serif;
-    font-weight: 700;
-    font-style: italic;
-  }
+.roboto-bold-italic {
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  font-style: italic;
+}
 
 
 /* Roboto Mono Style Definitions */
-
 /* <uniquifier>: Use a unique and descriptive class name */
 /* <weight>: Use a value from 100 to 700 */
-
 .roboto-mono-title {
   font-family: "Roboto Mono", serif;
   font-optical-sizing: auto;
@@ -43,7 +41,6 @@
 /* Roboto Serif Style Definitions */
 /* <uniquifier>: Use a unique and descriptive class name */
 /* <weight>: Use a value from 100 to 900 */
-
 .roboto-serif-title {
   font-family: "Roboto Serif", serif;
   font-optical-sizing: auto;
@@ -54,9 +51,10 @@
     "GRAD" 0;
 }
 
+
 /* Start of Page Specific CSS */
 body {
-    font: roboto-regular;
+    font: "Roboto" , sans-serif;
 }
 
 #logo {
@@ -68,4 +66,12 @@ body {
 #logo img {
     height: 100%;
     width: auto;
+}
+
+.tour-box {
+    width: 100%;
+    height: 100%;
+    margin: 25px;
+    padding: 25px;
+    background-color: lightgrey;
 }
